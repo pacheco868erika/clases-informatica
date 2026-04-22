@@ -58,8 +58,25 @@ print(frase. replace("Tecnología", "Programación"))
 print(frase.split())
 
 
-
-
+# Parte C  Problema integrador  
+# Programa integrador 
+nombre = input("Ingrese su nombre: ")
+apellido = input("Ingrese su apellido: ")
+pais = input("Ingrese su país: ")
+ancho = float(input("Ingrese el ancho de la pared: "))
+alto = float(input("Ingrese el alto de la pared: "))
+precio = float(input("Ingrese el precio por metro cuadrado: "))
+nombre_completo = nombre+" "+apellido
+area = ancho * alto
+costo_total = area * precio
+print(f"El nombre completo es: {nombre_completo}")
+print(f"País: {pais}")
+print(f"El área calculada es: {area}")
+print(f"El costo total es: {costo_total}")
+print(f"El nombre completo en mayúsculas es: {nombre_completo.upper()}")
+print(f"La longitud del nombre completo es: {len(nombre_completo)}")
+print(f"¿Está presente la letra 'a' en el nombre completo? { 'a' in nombre_completo }")
+print(f"¿El costo total es mayor que 100 dólares? {costo_total > 100}")
 
 
 
