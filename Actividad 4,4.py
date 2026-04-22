@@ -33,6 +33,9 @@ print(info[5])
 # %%
 #  Nivel 6: Aplicación simple
 nombreCompleto= "Mishelle Pacheco"
-print(f"Mi nombre completo es [nombreCompleto] ")
-nombre=nombreCompleto.split()
-print(nombre[0])
+print(f"Mi nombre completo es {nombreCompleto} ")
+nombre= "Erika" 
+apellido="Pacheco"
+print(nombre[0] + apellido[0])
+# %%
+
