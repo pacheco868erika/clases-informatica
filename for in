@@ -1,0 +1,5 @@
+# For in
+tabla=int(input("Ingrese un número: "))
+for numero in range (2, 11, 2):
+     print (f"{tabla} x {numero} = {tabla*numero}")
+     
