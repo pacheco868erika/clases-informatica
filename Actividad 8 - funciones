@@ -1,0 +1,28 @@
+def generate_full_name():
+    nombre= "Mishelle"
+    apellido= "Pacheco"
+    space= " "
+    nombre_completo = nombre + space + apellido
+    print (nombre_completo)
+generate_full_name()
+generate_full_name()
+generate_full_name()
+
+# eJEMPLO 2
+def instrucciones ():
+    print("===INSTRUCCIONES DEL PROGRAMA===")
+    print("1. Ingresa tu nombre")
+    print("2. Ingresa tu edad")
+    print("3. El programa mostrará un mensaje personalizado")
+    
+def despedida():
+    print("Gracias por usar el programa")
+    
+print("===SITEMA DE REGISTRO===")
+opcion= input("Deseas ver las instrucciones? si/no ")
+if opcion == "si":
+    instrucciones()
+nombre= input("Ingrese su nombre: ")
+edad= input("Ingrese su edad: ")
+print(f"Hola {nombre} tienes {edad} años")
+despedida()
