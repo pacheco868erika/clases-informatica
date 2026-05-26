@@ -33,3 +33,15 @@ def saludar (nombre):
     print (f"hola {nombre}") 
 
 saludar("Mishelle") 
+
+# DEBER
+def mostrar_estudiante(nombre, curso):
+    print ("===DATOS DEL ESTUDIANTE===")
+    print (f"Nombre: {nombre}")
+    print (f"Curso: {curso}")
+
+estudiantes=input ("¿Cuantos estudiantes desean ingresar?")
+while i <= estudiantes:
+    n= input("Ingrese el nombre del estudiante: ")
+    c= input("Ingrese el curso del estudiante")
+    
