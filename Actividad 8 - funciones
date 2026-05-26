@@ -25,4 +25,11 @@ if opcion == "si":
 nombre= input("Ingrese su nombre: ")
 edad= input("Ingrese su edad: ")
 print(f"Hola {nombre} tienes {edad} años")
-despedida()
+despedida() 
+
+# Ejemplo 3
+def saludar (nombre): 
+
+    print (f"hola {nombre}") 
+
+saludar("Mishelle") 
