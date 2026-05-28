@@ -39,9 +39,18 @@ def mostrar_estudiante(nombre, curso):
     print ("===DATOS DEL ESTUDIANTE===")
     print (f"Nombre: {nombre}")
     print (f"Curso: {curso}")
-
-estudiantes=input ("¿Cuantos estudiantes desean ingresar?")
-while i <= estudiantes:
-    n= input("Ingrese el nombre del estudiante: ")
-    c= input("Ingrese el curso del estudiante")
+    print("-------------------")
+    
+def mensaje_final():
+    print("Fin del programa")
+    
+estudiantes = int(input("¿Cuántos estudiantes desea ingresar?: "))
+contador = 1
+while contador <= estudiantes:
+    print("Registro del estudiante", contador)
+    nombre = input("Ingrese el nombre del estudiante: ")
+    curso = input("Ingrese el curso del estudiante: ")
+    mostrar_estudiante(nombre, curso)
+    contador += 1
+mensaje_final()
     
