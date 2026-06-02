@@ -9,3 +9,18 @@ nota1 = float(input("Ingrese la primera nota: "))
 nota2 = float(input("Ingrese la segunda nota: "))
 nota3 = float(input("Ingrese la tercera nota: "))
 calcular_promedio (nombre, apellido, nota1, nota2, nota3)
+
+# segundo ejercicio 
+def obtener_mensaje ():
+    mensaje = "Bienenido al sistema"
+    return mensaje 
+
+def generar_nombre_completo():
+    nombre = input ("Ingresa tu nombre: ")
+    apellido = input ("Ingresa tu apellido: ")
+    nombre_completo= nombre + " " + apellido 
+    return nombre_completo 
+    
+
+print (obtener_mensaje())
+print (generar_nombre_completo())
