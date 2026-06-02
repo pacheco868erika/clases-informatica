@@ -1,0 +1,11 @@
+def calcular_promedio (nombre, apellido, nota1, nota2, nota3):
+    print (f"Tu nombre es {nombre}, y tu apellido es {apellido}")
+    promedio = (nota1 + nota2 + nota3) / 3
+    print (f"Tu promedio es: {promedio}")
+    
+nombre = input ("Ingresa tu nombre : ")
+apellido = input ("Ingresa tu apellido: ")
+nota1 = float(input("Ingrese la primera nota: ")) 
+nota2 = float(input("Ingrese la segunda nota: "))
+nota3 = float(input("Ingrese la tercera nota: "))
+calcular_promedio (nombre, apellido, nota1, nota2, nota3)
