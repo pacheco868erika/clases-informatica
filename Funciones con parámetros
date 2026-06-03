@@ -25,7 +25,7 @@ def generar_nombre_completo():
 print (obtener_mensaje())
 print (generar_nombre_completo())
 
-# Ejercicio 
+# Ejercicio de puntos 
 def calcular_total_producto(precio, cantidad):
     return precio * cantidad
 print("=== SISTEMA DE COMPRA ===")
@@ -92,7 +92,7 @@ while True:
         break
     else:
         print ("Opción inválida")
-        break
+        
 
 
 # Ejericico de práctica 2
