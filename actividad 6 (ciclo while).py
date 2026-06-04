@@ -1,5 +1,5 @@
 
-# %%
+# Ciclo while %%
 palabra = input ("Ingrese una palabra: ")
 consonante = 0
 vocales = 0
