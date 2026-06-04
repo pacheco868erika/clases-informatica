@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< HEllo
 # Comentario de múltiples líneas
 """nombre: Mishelle
 fecha: 15/4/2026
