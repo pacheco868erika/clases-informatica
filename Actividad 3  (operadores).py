@@ -1,11 +1,10 @@
-#Operadores
+#Operador
 """Nombre: Mishelle Pacheco
 Fecha: 16/04/2026"""
 # %%
 # ariables
 edad= 16 
 estatura= 1.50
-
 # %%
 # base y altura de un triángulo 
 base = float(input("Ingrese la base: ")) 
